@@ -167,7 +167,7 @@ h1 {
     transition:width 2s, height 2s, background-image 2s, transform 2s, margin-left 2s;
 
 }
-.rotate:hover {
+.rotate:active {
     margin-left:530px;
     background-image: url("images/madagascar.png");
     width: 200px; 
