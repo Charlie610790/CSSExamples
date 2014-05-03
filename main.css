@@ -147,6 +147,8 @@ h1 {
 .squarecircle {
   width: 100px;
   height: 100px;
+  margin-left: auto;
+  margin-right: auto;
   background: #fc2e5a;
   border-radius: 50px;
   transition: all 1s;
@@ -158,7 +160,8 @@ h1 {
   background: #000000;
 }
 .rotate {
-    margin-left:570px;
+    margin-left: auto;
+  margin-right: auto;
     background-image: url("images/clickme.png");
     width: 100px; 
     height: 100px;
@@ -168,7 +171,8 @@ h1 {
 
 }
 .rotate:active {
-    margin-left:530px;
+    margin-left: auto;
+  margin-right: auto;
     background-image: url("images/madagascar.png");
     width: 200px; 
     height: 200px;
@@ -176,4 +180,82 @@ h1 {
     -webkit-transform:rotate(2890deg);
     transform:rotate(2890deg);
 }
+.miley {
+  border: 0px solid rgba(0, 0, 0, 0.7);
+  width: 160px; 
+  height: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("images/miley.jpg");
+  transition:all 2s ease;
+  -webkit-transition:all 2s ease;
+}
 
+.miley:hover{
+  border: 10px solid rgba(0, 0, 0, 0.7);
+  width: 140px; 
+  position: relative;
+  height: 150px;
+  background-image: url("images/miley.jpg");
+}
+
+.graph {
+  width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 300px;
+  background-color: #000000;
+  transition: all        1s linear,
+              width      1s ease,
+              background 1s ease;
+}
+ 
+.graph:hover {
+  width: 370px;
+  background-color: #000000;
+}
+ 
+.chart {
+  width: 80px;
+  height: 0px;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: top;
+  margin-left: 20px;
+  transition: all 1s ease;
+}
+.graph .small {
+  height: 10px;
+  transition: all 1s ease;
+  background: white;
+}
+ 
+.graph .medium {
+  height: 10px;
+  background: blue;
+  transition: all 1s ease;
+}
+ 
+.graph .large {
+  height: 10px;
+  background: yellow;
+  transition: all 1s ease;
+}
+ 
+.graph:hover .small {
+  height: 40px;
+  transition: all 1s ease;
+  background: white;
+}
+ 
+.graph:hover .medium {
+  height: 80px;
+  background: blue;
+  transition: all 1s ease;
+}
+ 
+.graph:hover .large {
+  height: 120px;
+  background: yellow;
+  transition: all 1s ease;
+}
