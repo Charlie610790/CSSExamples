@@ -259,3 +259,28 @@ h1 {
   background: yellow;
   transition: all 1s ease;
 }
+.textshadow {
+  text-shadow: 2px 3px 4px #ba89d4;
+  font-family: arial;
+  text-align: center;
+  font-size: 25px;
+}
+.roll {
+    margin-left: 0%;
+    margin-right: auto;
+    background-image: url("images/clickme.png");
+    width: 100px; 
+    height: 100px;
+    background-size:cover;
+    -webkit-transition:width 2s, height 2s, background-image 2s, -webkit-transform 2s, margin-left 2s;
+    transition:width 2s, height 2s, background-image 2s, transform 2s, margin-left 2s;
+}
+.roll:active {
+    margin-left: 75%;
+    background-image: url("images/madagascar.png");
+    width: 200px; 
+    height: 200px;
+    background-size:cover;
+    -webkit-transform:rotate(2890deg);
+    transform:rotate(2890deg);
+}
