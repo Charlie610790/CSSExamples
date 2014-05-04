@@ -322,3 +322,120 @@ to {top:200px;}
   border-radius: 5px;
   background-color: #479fe2;
 }
+.flash {
+  text-align: center;
+  color: black;
+  font-size: 26px;
+  width: 200px;
+  margin-left: auto;  
+  margin-right: auto;
+  height: 200px;
+  background-image: url("images/flash.jpg");
+}
+.flash:hover {
+  text-align: center;
+  color: black;
+  font-size: 26px;
+  margin-left: auto;  
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  background-image: url("images/flash.jpg");
+  -webkit-transition:all 1s ease-in-out;
+  transition:all 1s ease-in-out;
+  -webkit-animation:flash normal .3s infinite ease-in-out;
+  animation:flash normal .3s infinite ease-in-out;
+}
+@-webkit-keyframes flash 
+{
+  0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}
+}
+@keyframes flash 
+{
+  0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}
+}
+.flash:TEMP {
+  text-align: center;
+  color: black;
+  font-size: 26px;
+  margin-left: auto;  
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  background-image: url("images/flash.jpg");
+  -webkit-transition:all 1s ease-in-out;
+  transition:all 1s ease-in-out;
+  -webkit-animation:flashfast normal .3s infinite ease-in-out;
+  animation:flashfast normal .3s infinite ease-in-out;
+}
+@-webkit-keyframes flashfast
+{
+  0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}
+}
+@keyframes flashfast
+{
+  0%{opacity:1;} 50%{opacity:0;} 100%{opacity:1;}
+}
+.stretch {
+  width: 280px; 
+  height: 280px;
+  margin-left: auto;
+  background-size: 100% 100%;
+  margin-right: auto;
+  background-image: url("images/stretch.jpg");
+}
+.stretch:hover {
+  width: 780px; 
+  height: 280px;
+  margin-left: auto;
+  background-size: 100% 100%;
+  margin-right: auto;
+  background-image: url("images/stretch.jpg");
+  -webkit-transition:all 1s ease-in-out;
+  transition:all 1s ease-in-out;
+}
+.stretch:active {
+  width: 780px; 
+  height: 780px;
+  margin-left: auto;
+  background-size: 100% 100%;
+  margin-right: auto;
+  background-image: url("images/stretch.jpg");
+  -webkit-transition:all 1s ease-in-out;
+  transition:all 1s ease-in-out;
+}
+.flash:active {
+  text-align: center;
+  color: black;
+  font-size: 26px;
+  margin-left: 100%;  
+  width: 200px;
+  height: 200px;
+  background-image: url("images/flash.jpg");
+      -moz-animation-name: flashout;
+      -webkit-animation-name: flashout;
+    }
+    
+    @-moz-keyframes flashout {
+      from {
+        margin-left:42%;
+       
+      }
+      
+      to {
+        margin-left:100%;
+        
+      }
+    }
+    
+    @-webkit-keyframes flashout {
+      from {
+         margin-left:42%;
+       
+      }
+      
+      to {
+        margin-left:100%;
+        
+      }
+    }
