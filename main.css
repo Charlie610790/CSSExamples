@@ -439,3 +439,28 @@ to {top:200px;}
         
       }
     }
+.blackandwhite  {
+  -webkit-transition: all 1s ease;
+  width: 400px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+          transition: all 1s ease;
+}
+ 
+.blackandwhite:hover {
+  width: 400px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.blackandwhite:active {
+  width: 400px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-filter: blur(2px);
+  filter: blur(2px);
+}
