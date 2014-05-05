@@ -669,11 +669,12 @@ transition: 1s 2.3s;
   }
  .rocket {
 width: 1000px;
+min-height: 150px;
  }
  .rocketpad {
 background-color: brown;
 display: inline-block;
-height: 100px;
+
 width:50px;
  }
  .rocketship {
@@ -690,6 +691,7 @@ transition: all ease-out;
  .rocketship:active {
       max-height: 70px;
       max-width: 200px;
+      display: inline-block;
       background-image: url("images/rocket.jpg");
       background-size:200px 70px;
       animation-duration: 3s;
