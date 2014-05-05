@@ -928,7 +928,6 @@ margin-bottom: 250px;
       margin-right: auto;  
     }
     }
-}
 @keyframes hover {
     0% {
       margin-top: 100px;
@@ -1072,5 +1071,115 @@ animation: rock 1s infinite;
   -webkit-transform: rotate(10deg);
    -webkit-transition: 
    -webkit-transform 0.5s ease-in;
-
 }
+}
+.imageshrink {
+  width: 500px;
+  background-image: url("images/shrink.jpg");
+  background-size:500px 500px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transform: all 3s ease-in;
+  transform: all 3s ease-in;
+}
+.imageshrink:hover{
+  -webkit-animation: imageshrink 1s infinite;
+  animation: imageshrink 1s infinite;
+}
+  
+@-webkit-keyframes imageshrink {
+    0% {
+      width: 500px;
+      height: 500px;
+      background-image: url("images/shrink.jpg");
+      margin-left: auto;
+      margin-right: auto;  
+      margin-left: auto;
+      margin-right: auto; 
+
+    }
+       25% {
+      width: 400px;
+      height: 400px;
+      background-size:400px 400px;
+      background-image: url("images/shrink.jpg");
+      margin-left: auto;
+      margin-right: auto;  
+    }
+       50% {
+      width: 300px;
+      height: 300px;
+      background-size:300px 300px;
+      background-image: url("images/shrink.jpg");
+      margin-left: auto;
+      margin-right: auto;  
+    }
+    75% {
+      width: 200px;
+      height: 200px;
+      background-size:200px 200px;
+      background-image: url("images/shrink.jpg");
+      margin-left: auto;
+      margin-right: auto;  
+    }
+       100% {
+      width: 100px;
+      height: 100px;
+      background-size:100px 100px;
+      background-image: url("images/shrink.jpg");
+      margin-left: auto;
+      margin-right: auto;  
+    }
+    }
+    .clickmebuttonfun {
+      margin-left: auto;
+      margin-right: auto;  
+      width: 200px;
+      height: 167px;
+      background-size:200px 167px;
+      background-image: url("images/clickbutton.gif");
+    }
+    .clickmebuttonfun:active {
+      margin-left: auto;
+      margin-right: auto;  
+      width: 960px;
+      height: 460px;
+      background-size:960px 460px;
+      background-image: url("images/scaryface.jpg");
+    }
+    .sleepy {
+      margin-left: auto;
+      margin-right: auto;  
+      width: 400px;
+      height: 260px;
+      background-size:400px 260px;
+      background-image: url("images/sleepy.gif");
+    }
+      .sleepy:hover {
+      margin-left: auto;
+      margin-right: auto;  
+      width: 400px;
+      height: 260px;
+      background-size:400px 260px;
+      background-image: url("images/drunk.gif");
+    }
+    .thirty {
+      margin-left: auto;
+      margin-right: auto;  
+      width: 500px;
+      height: 424px;
+      background-size:500px 424px;
+      background-image: url("images/30.jpg");
+      transition: all 2s ease;
+      -webkit-transition: all 2s ease;
+    }
+    .thirty:hover {
+      margin-left: auto;
+      margin-right: auto;  
+      width: 1000px;
+      height: 213px;
+      background-size:1000px 213px;
+      background-image: url("images/fuckthisshit.gif");
+    }
+
