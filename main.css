@@ -1042,3 +1042,35 @@ animation: clock 10s infinite;
     margin-right: auto;
       margin-left: auto;
     }
+.rockingchair {
+  background-image: url("images/rockingchair.png");
+  height: 197px;
+      width: 198px;
+       background-size:197px 198px;
+    margin-right: auto;
+      margin-left: auto;
+}
+.rockingchair:hover {
+-webkit-animation: rock 1s infinite;
+animation: rock 1s infinite;
+}
+
+
+@-webkit-keyframes rock {
+  0% {
+  -webkit-transform: rotate(20deg);
+   -webkit-transition: 
+   -webkit-transform 0.5s ease-in;
+
+    }
+    50% {
+      -webkit-transform: rotate(-20deg);
+   -webkit-transition: 
+   -webkit-transform 0.5s ease-in;
+    }
+    100% {
+  -webkit-transform: rotate(10deg);
+   -webkit-transition: 
+   -webkit-transform 0.5s ease-in;
+
+}
