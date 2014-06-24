@@ -16,3 +16,5 @@ Background Images<BR>
 Other General CSS Settings<BR>
 
 Overall the 30 examples range from transitioning images to rotating and moving animations but this was a very helpful assignment.
+
+http://charlie610790.github.io/CSSExamples/
